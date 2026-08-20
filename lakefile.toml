@@ -1,0 +1,7 @@
+name = "autosubst2"
+version = "0.1.0"
+defaultTargets = ["Autosubst2"]
+
+[[lean_lib]]
+name = "Autosubst2"
+globs = ["Autosubst2.+"]
