@@ -13,6 +13,7 @@ Written in the regular, uniform shape a `deriving`-style generator will emit.
 namespace Autosubst2
 
 /-- The finite type with `n` elements, as the `n`-fold iteration of `Option`. -/
+@[implicit_reducible]
 def Idx : Nat → Type
   | 0 => Empty
   | n + 1 => Option (Idx n)
